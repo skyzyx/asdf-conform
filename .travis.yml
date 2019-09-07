@@ -1,6 +1,6 @@
 language: c
 env:
-  - TOOL_NAME=conform TOOL_VERSION=v0.1.0-alpha.16 TOOL_TEST_COMMAND='conform --version'
+  - TOOL_NAME=conform TOOL_VERSION=v0.1.0-alpha.16 TOOL_TEST_COMMAND='conform --help'
 before_script:
   - git clone https://github.com/asdf-vm/asdf.git
   - . asdf/asdf.sh
