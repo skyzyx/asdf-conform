@@ -1,6 +1,6 @@
 # asdf-conform
 
-[Build Status]
+[![Build Status](https://travis-ci.org/skyzyx/asdf-conform.svg?branch=master)](https://travis-ci.org/skyzyx/asdf-conform)
 
 [Conform](https://github.com/talos-systems/conform) plugin for the [asdf](https://github.com/asdf-vm/asdf) version manager.
 
