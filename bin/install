@@ -10,7 +10,7 @@ set \
 : ${ASDF_INSTALL_VERSION?}
 : ${ASDF_INSTALL_PATH?}
 
-github_coordinates=talos-systems/conform
+github_coordinates=siderolabs/conform
 
 install_tool() {
   #local install_type=$1
@@ -64,7 +64,7 @@ get_filename() {
   echo "${binary_name}-${platform}"
 }
 
-# https://github.com/talos-systems/conform/releases/download/v0.1.0-alpha.16/conform-darwin-amd64
+# https://github.com/siderolabs/conform/releases/download/v0.1.0-alpha.16/conform-darwin-amd64
 
 get_download_url() {
   local version="$1"
